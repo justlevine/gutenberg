@@ -56,22 +56,22 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-gutenberg.php',
 ];
 $ignoreErrors[] = [
-	// identifier: booleanAnd.leftAlwaysTrue
-	'message' => '#^Left side of && is always true\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/block-template-utils.php',
-];
-$ignoreErrors[] = [
-	// identifier: nullCoalesce.property
-	'message' => '#^Property WP_Post_Type\\:\\:\\$template \\(array\\<array\\>\\) on left side of \\?\\? is not nullable\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/rest-api.php',
-];
-$ignoreErrors[] = [
 	// identifier: booleanNot.alwaysTrue
 	'message' => '#^Negated boolean expression is always true\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/class-wp-block-templates-registry.php',
+];
+$ignoreErrors[] = [
+	// identifier: empty.offset
+	'message' => '#^Offset \'rendered\' on array\\{raw\\: mixed\\} in empty\\(\\) does not exist\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/blocks.php',
+];
+$ignoreErrors[] = [
+	// identifier: deadCode.unreachable
+	'message' => '#^Unreachable statement \\- code above always terminates\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/blocks.php',
 ];
 $ignoreErrors[] = [
 	// identifier: return.unusedType

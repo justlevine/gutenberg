@@ -350,156 +350,6 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/compat/plugin/fonts.php',
 ];
 $ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_admin_bar_edit_site_menu\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/admin-bar.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function gutenberg_block_bindings_pattern_overrides_callback\\(\\) has parameter \\$source_attrs with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/block-bindings/pattern-overrides.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_register_block_bindings_pattern_overrides_source\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/block-bindings/pattern-overrides.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.generics
-	'message' => '#^Method Gutenberg_REST_Global_Styles_Revisions_Controller_6_6\\:\\:prepare_item_for_response\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-rest-global-styles-revisions-controller-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.generics
-	'message' => '#^Method Gutenberg_REST_Templates_Controller_6_6\\:\\:get_item_permissions_check\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-rest-templates-controller-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.generics
-	'message' => '#^Method Gutenberg_REST_Templates_Controller_6_6\\:\\:get_items\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-rest-templates-controller-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.generics
-	'message' => '#^Method Gutenberg_REST_Templates_Controller_6_6\\:\\:get_items_permissions_check\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-rest-templates-controller-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.generics
-	'message' => '#^Method Gutenberg_REST_Templates_Controller_6_6\\:\\:get_template_fallback\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-rest-templates-controller-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.generics
-	'message' => '#^Method Gutenberg_REST_Templates_Controller_6_6\\:\\:prepare_item_for_response\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-rest-templates-controller-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_change_patterns_link_and_remove_template_parts_submenu_item\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/compat.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_update_initial_settings\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/option.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function gutenberg_update_initial_settings\\(\\) has parameter \\$args with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/option.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function gutenberg_update_initial_settings\\(\\) has parameter \\$defaults with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/option.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function gutenberg_update_initial_settings\\(\\) has parameter \\$option_group with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/option.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function gutenberg_update_initial_settings\\(\\) has parameter \\$option_name with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/option.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_add_excerpt_support_to_wp_block\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/post.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_replace_pattern_blocks_patterns_endpoint\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/resolve-patterns.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function gutenberg_replace_pattern_blocks_patterns_endpoint\\(\\) has parameter \\$request with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/resolve-patterns.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function gutenberg_replace_pattern_blocks_patterns_endpoint\\(\\) has parameter \\$result with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/resolve-patterns.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function gutenberg_replace_pattern_blocks_patterns_endpoint\\(\\) has parameter \\$server with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/resolve-patterns.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_add_class_list_to_public_post_types\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/rest-api.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_register_global_styles_revisions_endpoints\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/rest-api.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_register_wp_rest_post_types_controller_fields\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/rest-api.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_register_wp_rest_themes_stylesheet_directory_uri_field\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/rest-api.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_register_wp_rest_themes_template_directory_uri_field\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/rest-api.php',
-];
-$ignoreErrors[] = [
 	// identifier: missingType.parameter
 	'message' => '#^Function gutenberg_add_can_update_block_bindings_editor_setting\\(\\) has parameter \\$editor_settings with no type specified\\.$#',
 	'count' => 1,
@@ -626,16 +476,184 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/block-comments.php',
 ];
 $ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Function gutenberg_apply_block_hooks_to_post_content\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/blocks.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Function gutenberg_apply_block_hooks_to_post_content\\(\\) has parameter \\$content with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/blocks.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:add_hierarchical_ids\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:add_hierarchical_ids\\(\\) has parameter \\$children with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:add_hierarchical_ids\\(\\) has parameter \\$ids with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:add_hierarchical_ids\\(\\) has parameter \\$level with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:add_hierarchical_ids\\(\\) has parameter \\$levels with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:add_hierarchical_ids\\(\\) has parameter \\$to_process with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:get_ancestor\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:get_ancestor\\(\\) has parameter \\$post_id with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:get_instance\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:get_levels\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:get_post_ids\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:run\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Method Gutenberg_Hierarchical_Sort\\:\\:run\\(\\) has parameter \\$args with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.property
+	'message' => '#^Property Gutenberg_Hierarchical_Sort\\:\\:\\$instance has no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.property
+	'message' => '#^Property Gutenberg_Hierarchical_Sort\\:\\:\\$levels has no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.property
+	'message' => '#^Property Gutenberg_Hierarchical_Sort\\:\\:\\$post_ids has no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
+];
+$ignoreErrors[] = [
 	// identifier: missingType.generics
 	'message' => '#^Method Gutenberg_REST_Comment_Controller_6_8\\:\\:create_item_permissions_check\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-rest-comment-controller-6-8.php',
 ];
 $ignoreErrors[] = [
+	// identifier: missingType.generics
+	'message' => '#^Method Gutenberg_REST_Post_Types_Controller_6_8\\:\\:prepare_item_for_response\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-rest-post-types-controller-6-8.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.generics
+	'message' => '#^Function gutenberg_modify_user_query_args\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-rest-user-controller.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Function gutenberg_add_post_type_rendering_mode\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/rest-api.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Function gutenberg_respect_taxonomy_default_args_in_rest_api\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/rest-api.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Function gutenberg_respect_taxonomy_default_args_in_rest_api\\(\\) has parameter \\$args with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/rest-api.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Function gutenberg_add_styles_submenu_item\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/site-editor.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Function gutenberg_get_site_editor_redirection\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/site-editor.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Function gutenberg_redirect_site_editor_deprecated_urls\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/site-editor.php',
+];
+$ignoreErrors[] = [
 	// identifier: missingType.return
 	'message' => '#^Function gutenberg_redirect_demo\\(\\) has no return type specified\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/demo.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.return
+	'message' => '#^Function gutenberg_block_core_form_view_script_module\\(\\) has no return type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/experimental/blocks.php',
+];
+$ignoreErrors[] = [
+	// identifier: missingType.parameter
+	'message' => '#^Function gutenberg_block_core_form_view_script_module\\(\\) has parameter \\$data with no type specified\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/experimental/blocks.php',
 ];
 $ignoreErrors[] = [
 	// identifier: missingType.return
@@ -900,12 +918,6 @@ $ignoreErrors[] = [
 	'message' => '#^Function gutenberg_update_nav_menu_item_content\\(\\) has no return type specified\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/experimental/navigation-theme-opt-in.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function gutenberg_add_post_type_arg\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/experimental/posts/load.php',
 ];
 $ignoreErrors[] = [
 	// identifier: missingType.return

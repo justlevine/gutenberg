@@ -20,12 +20,6 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/blocks.php',
 ];
 $ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Method WP_Duotone_Gutenberg\\:\\:get_selector\\(\\) should return string but returns null\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/class-wp-duotone-gutenberg.php',
-];
-$ignoreErrors[] = [
 	// identifier: method.childParameterType
 	'message' => '#^Parameter \\#1 \\$id \\(int\\) of method WP_REST_Global_Styles_Controller_Gutenberg\\:\\:prepare_links\\(\\) should be compatible with parameter \\$post \\(WP_Post\\) of method WP_REST_Posts_Controller\\:\\:prepare_links\\(\\)$#',
 	'count' => 1,
@@ -78,36 +72,6 @@ $ignoreErrors[] = [
 	'message' => '#^Static property WP_Theme_JSON_Resolver_Gutenberg\\:\\:\\$user_custom_post_type_id \\(int\\) does not accept null\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Function _gutenberg_get_block_templates_files\\(\\) should return array but returns null\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/block-template-utils.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Function gutenberg_replace_pattern_override_default_binding\\(\\) should return string but returns array\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/blocks.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Method Gutenberg_Token_Map_6_6\\:\\:from_array\\(\\) should return WP_Token_Map\\|null but returns static\\(Gutenberg_Token_Map_6_6\\)\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Method Gutenberg_Token_Map_6_6\\:\\:from_precomputed_table\\(\\) should return WP_Token_Map but returns null\\.$#',
-	'count' => 2,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Method Gutenberg_Token_Map_6_6\\:\\:from_precomputed_table\\(\\) should return WP_Token_Map but returns static\\(Gutenberg_Token_Map_6_6\\)\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php',
 ];
 $ignoreErrors[] = [
 	// identifier: offsetAssign.dimType

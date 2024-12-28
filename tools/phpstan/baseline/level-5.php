@@ -51,12 +51,6 @@ $ignoreErrors[] = [
 ];
 $ignoreErrors[] = [
 	// identifier: argument.type
-	'message' => '#^Parameter \\#1 \\$str of function strtoupper expects string, bool given\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: argument.type
 	'message' => '#^Parameter \\#2 \\$value of method WP_HTTP_Response\\:\\:header\\(\\) expects string, int given\\.$#',
 	'count' => 2,
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/class-gutenberg-rest-posts-controller-6-7.php',

@@ -117,21 +117,9 @@ $ignoreErrors[] = [
 ];
 $ignoreErrors[] = [
 	// identifier: parameter.notFound
-	'message' => '#^PHPDoc tag @param references unknown parameter\\: \\$source_args$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/block-bindings/pattern-overrides.php',
-];
-$ignoreErrors[] = [
-	// identifier: parameter.notFound
 	'message' => '#^PHPDoc tag @param references unknown parameter\\: \\$settings$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/block-bindings.php',
-];
-$ignoreErrors[] = [
-	// identifier: property.notFound
-	'message' => '#^Access to an undefined property WP_Block_Template\\:\\:\\$plugin\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/class-gutenberg-rest-templates-controller-6-7.php',
 ];
 $ignoreErrors[] = [
 	// identifier: property.notFound
@@ -165,18 +153,6 @@ $ignoreErrors[] = [
 ];
 $ignoreErrors[] = [
 	// identifier: property.notFound
-	'message' => '#^Access to an undefined property WP_Block_Template\\:\\:\\$plugin\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/class-wp-block-templates-registry.php',
-];
-$ignoreErrors[] = [
-	// identifier: property.notFound
-	'message' => '#^Access to an undefined property WP_Block_Template\\:\\:\\$plugin\\.$#',
-	'count' => 5,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/compat.php',
-];
-$ignoreErrors[] = [
-	// identifier: property.notFound
 	'message' => '#^Access to an undefined property object\\:\\:\\$slug\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/compat.php',
@@ -194,16 +170,16 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/compat.php',
 ];
 $ignoreErrors[] = [
-	// identifier: property.notFound
-	'message' => '#^Access to an undefined property WP_Block_Template\\:\\:\\$plugin\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/rest-api.php',
-];
-$ignoreErrors[] = [
 	// identifier: method.notFound
 	'message' => '#^Call to an undefined method object\\:\\:set\\(\\)\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/block-comments.php',
+];
+$ignoreErrors[] = [
+	// identifier: property.notFound
+	'message' => '#^Access to an undefined property object\\:\\:\\$ID\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.8/class-gutenberg-hierarchical-sort.php',
 ];
 $ignoreErrors[] = [
 	// identifier: property.notFound

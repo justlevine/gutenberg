@@ -20,6 +20,24 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/block-supports/elements.php',
 ];
 $ignoreErrors[] = [
+	// identifier: offsetAccess.notFound
+	'message' => '#^Offset 1 does not exist on array\\{0\\?\\: string, 1\\?\\: non\\-falsy\\-string, 2\\?\\: non\\-falsy\\-string, 3\\?\\: non\\-falsy\\-string\\}\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/block-supports/layout.php',
+];
+$ignoreErrors[] = [
+	// identifier: offsetAccess.notFound
+	'message' => '#^Offset 2 does not exist on array\\{0\\?\\: string, 1\\?\\: non\\-falsy\\-string, 2\\?\\: non\\-falsy\\-string, 3\\?\\: non\\-falsy\\-string\\}\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/block-supports/layout.php',
+];
+$ignoreErrors[] = [
+	// identifier: offsetAccess.notFound
+	'message' => '#^Offset 3 does not exist on array\\{0\\?\\: string, 1\\?\\: non\\-falsy\\-string, 2\\?\\: non\\-falsy\\-string, 3\\?\\: non\\-falsy\\-string\\}\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/block-supports/layout.php',
+];
+$ignoreErrors[] = [
 	// identifier: encapsedStringPart.nonString
 	'message' => '#^Part \\$process_value \\(array\\<string\\>\\|string\\) of encapsed string cannot be cast to string\\.$#',
 	'count' => 2,
@@ -183,48 +201,6 @@ $ignoreErrors[] = [
 ];
 $ignoreErrors[] = [
 	// identifier: argument.type
-	'message' => '#^Parameter \\#1 \\$post of function _build_block_template_result_from_post expects WP_Post, int\\|WP_Post given\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/block-template-utils.php',
-];
-$ignoreErrors[] = [
-	// identifier: argument.type
-	'message' => '#^Parameter \\#2 \\$template_type of function _build_block_template_result_from_file expects \'wp_template\'\\|\'wp_template_part\', string given\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/block-template-utils.php',
-];
-$ignoreErrors[] = [
-	// identifier: property.notFound
-	'message' => '#^Access to an undefined property WP_Error\\|WP_Post\\:\\:\\$ID\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-rest-global-styles-revisions-controller-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: argument.type
-	'message' => '#^Parameter \\#1 \\$theme_json of static method WP_Theme_JSON_Resolver_Gutenberg\\:\\:get_resolved_theme_uris\\(\\) expects WP_Theme_JSON_Gutenberg, array\\|WP_Theme_JSON_Gutenberg given\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-rest-global-styles-revisions-controller-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: offsetAccess.nonOffsetAccessible
-	'message' => '#^Cannot access offset 1 on array\\|false\\.$#',
-	'count' => 8,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: argument.type
-	'message' => '#^Parameter \\#2 \\$callback of function usort expects callable\\(int\\|string, int\\|string\\)\\: int, \'static\\:\\:longest…\' given\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: property.notFound
-	'message' => '#^Access to an undefined property object\\:\\:\\$item_updated\\.$#',
-	'count' => 2,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/post.php',
-];
-$ignoreErrors[] = [
-	// identifier: argument.type
 	'message' => '#^Parameter \\#2 \\$args of method WP_Block_Templates_Registry\\:\\:register\\(\\) expects array, array\\|string given\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/block-templates.php',
@@ -306,6 +282,12 @@ $ignoreErrors[] = [
 	'message' => '#^Parameter \\#2 \\$callback of function usort expects callable\\(int\\|string, int\\|string\\)\\: int, \'WP_Token_Map\\:…\' given\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/class-gutenberg-token-map-6-7.php',
+];
+$ignoreErrors[] = [
+	// identifier: argument.type
+	'message' => '#^Parameter \\#1 \\$template_type of function _get_block_templates_files expects \'wp_template\'\\|\'wp_template_part\', string given\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/compat.php',
 ];
 $ignoreErrors[] = [
 	// identifier: argument.type
