@@ -155,8 +155,8 @@ function gutenberg_remove_block_nav_menu_items( $menu_items ) {
 	// We should uncomment the line below when the block-nav-menus feature becomes stable.
 	// @see https://github.com/WordPress/gutenberg/issues/34265.
 	/*if ( current_theme_supports( 'block-nav-menus' ) ) {*/
-	if ( false ) {
-		return $menu_items;
+	if ( empty( $menu_items ) ) {
+		return [];
 	}
 
 	return array_filter(
