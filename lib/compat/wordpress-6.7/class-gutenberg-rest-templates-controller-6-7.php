@@ -92,7 +92,7 @@ class Gutenberg_REST_Templates_Controller_6_7 extends WP_REST_Templates_Controll
 	 * Returns the source from where the template originally comes from.
 	 *
 	 * @param WP_Block_Template $template_object Template instance.
-	 * @return string                            Original source of the template one of theme, plugin, site, or user.
+	 * @return 'theme'|'plugin'|'site'|'user'    Original source of the template one of theme.
 	 */
 	// @core-merge: Changed the comments format (from inline to multi-line) in the entire function.
 	private static function get_wp_templates_original_source_field( $template_object ) {
