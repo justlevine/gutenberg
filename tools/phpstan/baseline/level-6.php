@@ -350,12 +350,6 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/compat/plugin/fonts.php',
 ];
 $ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function gutenberg_add_can_update_block_bindings_editor_setting\\(\\) has parameter \\$editor_settings with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/block-bindings.php',
-];
-$ignoreErrors[] = [
 	// identifier: missingType.return
 	'message' => '#^Function gutenberg_bootstrap_server_block_bindings_sources\\(\\) has no return type specified\\.$#',
 	'count' => 1,
@@ -396,18 +390,6 @@ $ignoreErrors[] = [
 	'message' => '#^Property WP_Block_Templates_Registry\\:\\:\\$registered_templates has no type specified\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/class-wp-block-templates-registry.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.return
-	'message' => '#^Function _gutenberg_add_block_template_plugin_attribute\\(\\) has no return type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/compat.php',
-];
-$ignoreErrors[] = [
-	// identifier: missingType.parameter
-	'message' => '#^Function _gutenberg_add_block_template_plugin_attribute\\(\\) has parameter \\$block_template with no type specified\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.7/compat.php',
 ];
 $ignoreErrors[] = [
 	// identifier: missingType.return

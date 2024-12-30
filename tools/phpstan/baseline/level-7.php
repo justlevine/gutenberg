@@ -129,12 +129,6 @@ $ignoreErrors[] = [
 ];
 $ignoreErrors[] = [
 	// identifier: offsetAccess.nonOffsetAccessible
-	'message' => '#^Cannot access offset \'selectors\' on object\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-gutenberg.php',
-];
-$ignoreErrors[] = [
-	// identifier: offsetAccess.nonOffsetAccessible
 	'message' => '#^Cannot access offset mixed on object\\.$#',
 	'count' => 4,
 	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-gutenberg.php',
@@ -153,7 +147,19 @@ $ignoreErrors[] = [
 ];
 $ignoreErrors[] = [
 	// identifier: return.type
+	'message' => '#^Method WP_Theme_JSON_Resolver_Gutenberg\\:\\:get_theme_data\\(\\) should return WP_Theme_JSON_Gutenberg but returns WP_Theme_JSON\\|WP_Theme_JSON_Gutenberg\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
+];
+$ignoreErrors[] = [
+	// identifier: return.type
 	'message' => '#^Method WP_Theme_JSON_Resolver_Gutenberg\\:\\:translate\\(\\) should return array but returns array\\<array\\|string\\>\\|string\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
+];
+$ignoreErrors[] = [
+	// identifier: argument.type
+	'message' => '#^Parameter \\#1 \\$incoming of method WP_Theme_JSON_Gutenberg\\:\\:merge\\(\\) expects WP_Theme_JSON_Gutenberg, WP_Theme_JSON\\|WP_Theme_JSON_Gutenberg given\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
 ];
