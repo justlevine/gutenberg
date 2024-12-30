@@ -80,7 +80,7 @@ add_filter( 'block_type_metadata_settings', array( 'WP_Duotone_Gutenberg', 'migr
 function gutenberg_tinycolor_bound01( $n, $max ) {
 	_deprecated_function( __FUNCTION__, '6.3.0' );
 
-	if ( 'string' === gettype( $n ) && str_contains( $n, '.' ) && 1 === (float) $n ) {
+	if ( 'string' === gettype( $n ) && str_contains( $n, '.' ) && 1.0 === (float) $n ) {
 		$n = '100%';
 	}
 
@@ -309,7 +309,7 @@ function gutenberg_tinycolor_string_to_rgb( $color_str ) {
 		);
 
 		$rgb['a'] = gutenberg_tinycolor_bound_alpha(
-			base_convert( $match[4], 16, 10 ) / 255
+			absint( base_convert( $match[4], 16, 10 ) ) / 255
 		);
 
 		return $rgb;
@@ -341,7 +341,7 @@ function gutenberg_tinycolor_string_to_rgb( $color_str ) {
 		);
 
 		$rgb['a'] = gutenberg_tinycolor_bound_alpha(
-			base_convert( $match[4] . $match[4], 16, 10 ) / 255
+			absint( base_convert( $match[4] . $match[4], 16, 10 ) ) / 255
 		);
 
 		return $rgb;

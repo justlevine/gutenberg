@@ -2823,12 +2823,6 @@ class WP_Theme_JSON_Gutenberg {
 						foreach ( static::VALID_ELEMENT_PSEUDO_SELECTORS[ $element ] as $pseudo_selector ) {
 							if ( isset( $theme_json['styles']['blocks'][ $name ]['elements'][ $element ][ $pseudo_selector ] ) ) {
 								$node_path = array( 'styles', 'blocks', $name, 'elements', $element );
-								if ( $include_node_paths_only ) {
-									$nodes[] = array(
-										'path' => $node_path,
-									);
-									continue;
-								}
 
 								$nodes[] = array(
 									'path'     => $node_path,
@@ -4325,7 +4319,7 @@ class WP_Theme_JSON_Gutenberg {
 	 * typography etc, that have custom selectors in their related block's
 	 * metadata.
 	 *
-	 * @param object $metadata The related block metadata containing selectors.
+	 * @param array  $metadata The related block metadata containing selectors.
 	 * @param object $node     A merged theme.json node for block or variation.
 	 *
 	 * @return array The style declarations for the node's features with custom
@@ -4483,7 +4477,7 @@ class WP_Theme_JSON_Gutenberg {
 				continue;
 			}
 
-			if ( 0 <= strpos( $style, 'var(' ) ) {
+			if ( false !== strpos( $style, 'var(' ) ) {
 				// find all the variables in the string in the form of var(--variable-name, fallback), with fallback in the second capture group.
 
 				$has_matches = preg_match_all( '/var\(([^),]+)?,?\s?(\S+)?\)/', $style, $var_parts );

@@ -8,22 +8,10 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/block-supports/layout.php',
 ];
 $ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Function gutenberg_get_typography_value_and_unit\\(\\) should return array but returns null\\.$#',
-	'count' => 3,
-	'path' => __DIR__ . '/../../../lib/block-supports/typography.php',
-];
-$ignoreErrors[] = [
 	// identifier: return.empty
 	'message' => '#^Function _gutenberg_footnotes_force_filtered_html_on_import_filter\\(\\) should return string but empty return statement found\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/blocks.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Method WP_Duotone_Gutenberg\\:\\:get_selector\\(\\) should return string but returns null\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/class-wp-duotone-gutenberg.php',
 ];
 $ignoreErrors[] = [
 	// identifier: method.childParameterType
@@ -44,8 +32,38 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-gutenberg.php',
 ];
 $ignoreErrors[] = [
+	// identifier: return.type
+	'message' => '#^Method WP_Theme_JSON_Resolver_Gutenberg\\:\\:get_block_data\\(\\) should return WP_Theme_JSON_Gutenberg but returns WP_Theme_JSON\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
+];
+$ignoreErrors[] = [
+	// identifier: return.type
+	'message' => '#^Method WP_Theme_JSON_Resolver_Gutenberg\\:\\:get_core_data\\(\\) should return WP_Theme_JSON_Gutenberg but returns WP_Theme_JSON\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
+];
+$ignoreErrors[] = [
+	// identifier: return.type
+	'message' => '#^Method WP_Theme_JSON_Resolver_Gutenberg\\:\\:get_user_data\\(\\) should return WP_Theme_JSON_Gutenberg but returns WP_Theme_JSON\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
+];
+$ignoreErrors[] = [
+	// identifier: assign.propertyType
+	'message' => '#^Static property WP_Theme_JSON_Resolver_Gutenberg\\:\\:\\$blocks \\(WP_Theme_JSON_Gutenberg\\) does not accept WP_Theme_JSON\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
+];
+$ignoreErrors[] = [
 	// identifier: assign.propertyType
 	'message' => '#^Static property WP_Theme_JSON_Resolver_Gutenberg\\:\\:\\$blocks \\(WP_Theme_JSON_Gutenberg\\) does not accept null\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
+];
+$ignoreErrors[] = [
+	// identifier: assign.propertyType
+	'message' => '#^Static property WP_Theme_JSON_Resolver_Gutenberg\\:\\:\\$core \\(WP_Theme_JSON_Gutenberg\\) does not accept WP_Theme_JSON\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
 ];
@@ -58,6 +76,12 @@ $ignoreErrors[] = [
 $ignoreErrors[] = [
 	// identifier: assign.propertyType
 	'message' => '#^Static property WP_Theme_JSON_Resolver_Gutenberg\\:\\:\\$i18n_schema \\(array\\) does not accept null\\.$#',
+	'count' => 1,
+	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
+];
+$ignoreErrors[] = [
+	// identifier: assign.propertyType
+	'message' => '#^Static property WP_Theme_JSON_Resolver_Gutenberg\\:\\:\\$theme \\(WP_Theme_JSON_Gutenberg\\) does not accept WP_Theme_JSON\\.$#',
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
 ];
@@ -80,36 +104,6 @@ $ignoreErrors[] = [
 	'path' => __DIR__ . '/../../../lib/class-wp-theme-json-resolver-gutenberg.php',
 ];
 $ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Function _gutenberg_get_block_templates_files\\(\\) should return array but returns null\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/block-template-utils.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Function gutenberg_replace_pattern_override_default_binding\\(\\) should return string but returns array\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/blocks.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Method Gutenberg_Token_Map_6_6\\:\\:from_array\\(\\) should return WP_Token_Map\\|null but returns static\\(Gutenberg_Token_Map_6_6\\)\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Method Gutenberg_Token_Map_6_6\\:\\:from_precomputed_table\\(\\) should return WP_Token_Map but returns null\\.$#',
-	'count' => 2,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php',
-];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Method Gutenberg_Token_Map_6_6\\:\\:from_precomputed_table\\(\\) should return WP_Token_Map but returns static\\(Gutenberg_Token_Map_6_6\\)\\.$#',
-	'count' => 1,
-	'path' => __DIR__ . '/../../../lib/compat/wordpress-6.6/class-gutenberg-token-map-6-6.php',
-];
-$ignoreErrors[] = [
 	// identifier: offsetAssign.dimType
 	'message' => '#^Cannot assign offset \'_fields\' to WP_REST_Request\\<array\\>\\.$#',
 	'count' => 1,
@@ -127,11 +121,4 @@ $ignoreErrors[] = [
 	'count' => 1,
 	'path' => __DIR__ . '/../../../lib/experimental/media/class-gutenberg-rest-attachments-controller.php',
 ];
-$ignoreErrors[] = [
-	// identifier: return.type
-	'message' => '#^Function gutenberg_register_block_module_id\\(\\) should return string but returns false\\.$#',
-	'count' => 2,
-	'path' => __DIR__ . '/../../../lib/experimental/script-modules.php',
-];
-
 return ['parameters' => ['ignoreErrors' => $ignoreErrors]];
